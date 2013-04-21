@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/cancri_e" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:textSize="18sp"
+                android:textColor="#2f4444"
+                android:text="55 Cancri e is an extrasolar planet approximately 40 light years from Earth orbiting the Sun-like star 55 Cancri A.\n\nIts mass is about 7.8 Earth masses and its diameter is about twice that of Earth&apos;s, thus classifying it as the first Super-Earth discovered around a main sequence star.\n\n55 Cancri E is believed to be a solid planet made of carbon-rich material rather than the oxygen-rich material that makes up the terrestrial planets in our solar system.\n\nAs such, roughly a third of the planet&apos;s mass would be carbon.\n\nDue to conditions in the planet’s atmosphere, much of this mass may be diamond."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

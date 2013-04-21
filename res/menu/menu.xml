@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/gallery_item"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/gallery"/>
+    <item
+        android:id="@+id/share_item"
+        android:actionProviderClass="com.actionbersherlock.widget.ShareActionProvider"
+        android:icon="@drawable/share"
+        android:showAsAction="always"
+        android:title="@string/action_bar_share_with"/>
+
+</menu>
